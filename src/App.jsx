@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import About from "./sections/About";
 import Banner from "./sections/Banner";
 import Contact from "./sections/Contact";
@@ -10,7 +10,7 @@ import Testimonials from "./sections/Testimonials";
 export default function App() {
   return (
     <main>
-      <Navbar />
+      <Header />
       <section className="mt-[120px]">
         <Banner />
       </section>
@@ -27,7 +27,9 @@ export default function App() {
       <section className="mt-[139px]">
         <Contact />
       </section>
-      <Footer />
+      <section className="mt-[139px] bg-s7">
+        <Footer />
+      </section>
     </main>
   )
 } 

@@ -5,6 +5,10 @@ import GraphicDesignIcon from "../assets/icons/graphic-design.png";
 import Project1 from "../assets/project1.png";
 import Project2 from "../assets/project2.png";
 import Project3 from "../assets/project3.png";
+import FacebookIcon from "../assets/icons/Facebook.png";
+import TwitterIcon from "../assets/icons/Twitter.png";
+import InstagramIcon from "../assets/icons/Instagram.png";
+import LinkedInIcon from "../assets/icons/LinkedIn.png";
 
 export const navLinks = [
   {
@@ -57,6 +61,25 @@ export const services = [
     title: "Graphic Design ",
     subtitle:
       "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum",
+  },
+];
+
+export const socialLinks = [
+  {
+    logo: FacebookIcon,
+    url: "https://www.facebook.com/nowshadbroo",
+  },
+  {
+    logo: TwitterIcon,
+    url: "https://x.com/Noushad_xaman",
+  },
+  {
+    logo: InstagramIcon,
+    url: "https://www.instagram.com/noushad_ozi",
+  },
+  {
+    logo: LinkedInIcon,
+    url: "https://www.linkedin.com/in/noushadzaman/",
   },
 ];
 

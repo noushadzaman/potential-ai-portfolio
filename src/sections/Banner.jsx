@@ -1,8 +1,5 @@
+import SocialButtons from '@/components/SocialButtons'
 import BannerImg from '../assets/banner-image.png'
-import FacebookIcon from '../assets/icons/Facebook.png'
-import TwitterIcon from '../assets/icons/Twitter.png'
-import InstagramIcon from '../assets/icons/Instagram.png'
-import LinkedInIcon from '../assets/icons/LinkedIn.png'
 import Button from '../components/Button'
 
 const Banner = () => {
@@ -26,20 +23,7 @@ const Banner = () => {
                     <img src={BannerImg} alt="Umair image" />
                     <div className='w-[374px] h-[83px] bg-[#FD6F00] opacity-[60%] absolute top-[78px] right-[82px]' />
                 </div>
-                <div className='flex gap-[25px]'>
-                    <a href="https://www.facebook.com/nowshadbroo" target='_blank'>
-                        <img src={FacebookIcon} alt="Facebook" />
-                    </a>
-                    <a href="https://x.com/Noushad_xaman" target='_blank'>
-                        <img src={TwitterIcon} alt="Twitter" />
-                    </a>
-                    <a href="https://www.instagram.com/noushad_ozi" target='_blank'>
-                        <img src={InstagramIcon} alt="Instagram" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/noushadzaman/" target='_blank'>
-                        <img src={LinkedInIcon} alt="LinkedIn" />
-                    </a>
-                </div>
+                <SocialButtons />
             </div>
         </section>
     )
