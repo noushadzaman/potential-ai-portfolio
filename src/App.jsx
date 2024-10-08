@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import AboutMe from "./sections/AboutMe";
+import About from "./sections/About";
 import Banner from "./sections/Banner";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
@@ -14,7 +14,9 @@ export default function App() {
       <section className="mt-[120px]">
         <Banner />
       </section>
-      <AboutMe />
+      <section className="mt-[70px]">
+        <About />
+      </section>
       <Services />
       <Projects />
       <Testimonials />
