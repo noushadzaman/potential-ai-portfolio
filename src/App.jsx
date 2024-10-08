@@ -24,7 +24,9 @@ export default function App() {
         <Projects />
       </section>
       <Testimonials />
-      <Contact />
+      <section className="mt-[139px]">
+        <Contact />
+      </section>
       <Footer />
     </main>
   )
