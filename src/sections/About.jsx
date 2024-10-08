@@ -20,7 +20,6 @@ const About = () => {
                 <Intro
                     title={"About Me"}
                     subtitle={"Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra"}
-                    align="start"
                 />
                 <div className='mt-[15px] space-y-[25px]'>
                     <Skill label={"UX"} value={80} />

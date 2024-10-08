@@ -17,7 +17,9 @@ export default function App() {
       <section className="mt-[70px]">
         <About />
       </section>
-      <Services />
+      <section className="mt-[139px]">
+        <Services />
+      </section>
       <Projects />
       <Testimonials />
       <Contact />

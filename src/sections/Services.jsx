@@ -1,7 +1,30 @@
+import Intro from "@/components/Intro"
+import { services } from "@/constants"
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <section
+      id="services"
+      className="max-w-[1413px] mx-auto"
+    >
+      <Intro
+        title={"Services"}
+        subtitle={"Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium"}
+        center={true}
+      />
+      <div className="mt-[72px] flex gap-[31px] tracking-[0.03em]">
+        {
+          services.map(service => <div
+            key={service.title}
+            className="px-[18px] py-[57px] bg-s7 rounded-[14px]"
+          >
+            <img className="h-[70px]" src={service.logo} alt={service.title} />
+            <h3 className="mt-[17px] font-[600] text-[32px] leading-[48px]">{service.title}</h3>
+            <p className="mt-[15px] font-[400] text-[19px] leading-[28.5px]">{service.subtitle}</p>
+          </div>)
+        }
+      </div>
+    </section>
   )
 }
 
