@@ -2,6 +2,9 @@ import UiIcon from "../assets/icons/ui-ux.png";
 import WebIcon from "../assets/icons/web-design.png";
 import AppIcon from "../assets/icons/app-design.png";
 import GraphicDesignIcon from "../assets/icons/graphic-design.png";
+import Project1 from "../assets/project1.png";
+import Project2 from "../assets/project2.png";
+import Project3 from "../assets/project3.png";
 
 export const navLinks = [
   {
@@ -54,5 +57,47 @@ export const services = [
     title: "Graphic Design ",
     subtitle:
       "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum",
+  },
+];
+
+export const projectCategories = [
+  {
+    text: "All",
+  },
+  {
+    text: "UI/UX",
+  },
+  {
+    text: "Web Design",
+  },
+  {
+    text: "App Design",
+  },
+  {
+    text: "Graphic Design",
+  },
+];
+
+export const projects = [
+  {
+    name: "AirCalling Landing Page Design",
+    category: "Web Design",
+    img: Project1,
+    imgHeight: 4096,
+    imgWidth: 1212,
+  },
+  {
+    name: "Business Landing Page Design",
+    category: "Web Design",
+    img: Project2,
+    imgHeight: 4096,
+    imgWidth: 720,
+  },
+  {
+    name: "Ecom Web Page Design",
+    category: "Web Design",
+    img: Project3,
+    imgHeight: 4096,
+    imgWidth: 831,
   },
 ];

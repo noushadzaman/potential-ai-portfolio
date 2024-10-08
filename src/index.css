@@ -6,6 +6,12 @@
 @tailwind utilities;
 
 
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
 @layer base {
   /* html { */
   /* @apply bg-s1; */
@@ -94,8 +100,8 @@
 
 
     --radius: 0.5rem
-
   }
+
   .dark {
 
 
@@ -169,7 +175,6 @@
 
 
     --chart-5: 340 75% 55%
-
   }
 
 }
@@ -180,6 +185,7 @@
     @apply border-border;
 
   }
+
   body {
     @apply bg-background text-foreground;
 

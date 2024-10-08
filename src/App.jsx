@@ -20,7 +20,9 @@ export default function App() {
       <section className="mt-[139px]">
         <Services />
       </section>
-      <Projects />
+      <section className="mt-[139px]">
+        <Projects />
+      </section>
       <Testimonials />
       <Contact />
       <Footer />
