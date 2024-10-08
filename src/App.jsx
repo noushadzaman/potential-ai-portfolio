@@ -11,7 +11,9 @@ export default function App() {
   return (
     <main>
       <Navbar />
-      <Banner />
+      <section className="mt-[120px]">
+        <Banner />
+      </section>
       <AboutMe />
       <Services />
       <Projects />
