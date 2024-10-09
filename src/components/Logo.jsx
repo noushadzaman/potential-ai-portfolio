@@ -6,17 +6,17 @@ const Logo = ({ isOpen, setIsOpen }) => {
         <>
             <a
                 href='/'
-                className='max-lg:hidden flex gap-[10px] lg:gap-[20px] items-center'>
-                <img className='h-[40px] w-[40px] lg:h-[67px] lg:w-[67px]' src={LogoIcon} alt="logo" />
-                <p className='font-montserrat text-[28px] lg:text-[48px] leading-5 lg:leading-[58.51px] text-s4 font-[400]'>
+                className='max-lg:hidden flex gap-[10px] md:gap-[15px] xl:gap-[20px] items-center'>
+                <img className='w-[40px] md:w-[45px] xl:w-[67px]' src={LogoIcon} alt="logo" />
+                <p className='font-montserrat text-[28px] md:text-[35px] xl:text-[48px] leading-5 lg:leading-[58.51px] text-s4 font-[400]'>
                     <span className='font-[700] text-s2'>M</span>
                     umair
                 </p>
             </a>
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className='flex lg:hidden gap-[10px] lg:gap-[20px] items-center'>
-                <img className='h-[40px] w-[40px] lg:h-[67px] lg:w-[67px]' src={LogoIcon} alt="logo" />
+                className='flex lg:hidden gap-[10px] md:gap-[15px] xl:gap-[20px] items-center'>
+                <img className='w-[40px] md:w-[45px] xl:w-[67px]' src={LogoIcon} alt="logo" />
                 <p className='font-montserrat text-[28px] lg:text-[48px] leading-5 lg:leading-[58.51px] text-s4 font-[400]'>
                     <span className='font-[700] text-s2'>M</span>
                     umair

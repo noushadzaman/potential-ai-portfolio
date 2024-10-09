@@ -3,8 +3,22 @@ import Intro from "@/components/Intro"
 import ProjectImageOne from "@/components/ProjectImageOne"
 import ProjectImageTwo from "@/components/ProjectImageTwo"
 import { projectCategories, projects } from "@/constants"
+import { useState } from "react"
 
 const Projects = () => {
+  const [selectedCategory, setSelectedCategory] = useState(1);
+  const [projectsState, setProjectsState] = useState(projects.filter(p => p.category === "Web Design"));
+
+  const setCategory = (category) => {
+    setSelectedCategory(category)
+    if (projectCategories[category].text === "All") {
+      setProjectsState(projects);
+    }
+    else {
+      setProjectsState(projects.filter(p => p.category === projectCategories[category].text));
+    }
+  }
+
 
   return (
     <section
@@ -13,16 +27,18 @@ const Projects = () => {
     >
       <Intro
         title={"My Projects"}
-        subtitle={"Lorem ipsum dolor sit amet consectetur. Mollis erat duis aliquam mauris est risus lectus. Phasellus consequat urna tellus"}
+        subtitle={"I’ve designed intuitive websites, engaging apps, and impactful graphics, enhancing user experiences and elevating brand identities."}
         center={true}
       />
       {/* project category buttons */}
       <div className="mt-[30px] lg:mt-[59px] flex flex-wrap gap-[17px] items-center justify-center">
         {
           projectCategories.map(category => <Button
-            active={false}
-            key={category.text}
+            id={category.id}
+            selectedCategory={selectedCategory}
+            key={category.id}
             label={category.text}
+            setCategory={setCategory}
             btnType={'secondary'}
           />)
         }
@@ -31,7 +47,7 @@ const Projects = () => {
       {/* projects div */}
       <div className="mt-[45px] lg:mt-[106px] flex flex-wrap gap-[44px] tracking-[0.03em] justify-center items-center">
         {
-          projects.map(project => <div
+          projectsState.map(project => <div
             className="w-[360px] md:w-[445px]"
             key={project.name}
           >

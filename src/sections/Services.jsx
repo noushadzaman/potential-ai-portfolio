@@ -9,7 +9,7 @@ const Services = () => {
     >
       <Intro
         title={"Services"}
-        subtitle={"Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium"}
+        subtitle={"I provide UX design, website and app development, and graphic design services, focusing on user engagement and effective branding."}
         center={true}
       />
       <div className="mt-[35px] lg:mt-[72px] flex flex-wrap gap-[31px] tracking-[0.03em] justify-center">

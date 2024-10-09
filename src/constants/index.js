@@ -17,6 +17,8 @@ import InstagramIcon from "../assets/icons/Instagram.png";
 import LinkedInIcon from "../assets/icons/LinkedIn.png";
 import Profile1 from "../assets/profile1.jpeg";
 import Profile2 from "../assets/profile2.jpeg";
+import Profile3 from "../assets/profile3.webp";
+import Profile4 from "../assets/profile4.webp";
 
 export const navLinks = [
   {
@@ -93,18 +95,23 @@ export const socialLinks = [
 
 export const projectCategories = [
   {
+    id: 0,
     text: "All",
   },
   {
-    text: "UI/UX",
-  },
-  {
+    id: 1,
     text: "Web Design",
   },
   {
+    id: 2,
+    text: "UI/UX",
+  },
+  {
+    id: 3,
     text: "App Design",
   },
   {
+    id: 4,
     text: "Graphic Design",
   },
 ];
@@ -131,49 +138,77 @@ export const projects = [
     imgHeight: 4096,
     imgWidth: 831,
   },
+  {
+    name: "Mobile App UI Design",
+    category: "App Design",
+    img: Project4,
+    imgHeight: 4096,
+    imgWidth: 725,
+  },
+  {
+    name: "Portfolio Website Design",
+    category: "UI/UX",
+    img: Project5,
+    imgHeight: 4096,
+    imgWidth: 720,
+  },
+  {
+    name: "E-commerce Mobile App Design",
+    category: "App Design",
+    img: Project6,
+    imgHeight: 4096,
+    imgWidth: 1010,
+  },
+  {
+    name: "Landing Page for Startup",
+    category: "App Design",
+    img: Project7,
+    imgHeight: 1200,
+    imgWidth: 418,
+  },
+  {
+    name: "Corporate Website Design",
+    category: "Graphic Design",
+    img: Project8,
+    imgHeight: 2775,
+    imgWidth: 1400,
+  },
+  {
+    name: "Social Media App Design",
+    category: "App Design",
+    img: Project9,
+    imgHeight: 4096,
+    imgWidth: 1097,
+  },
 ];
 
 export const testimonials = [
   {
-    name: "jhon Duew1",
-    designation: "CEO1",
+    name: "Alice Johnson",
+    designation: "Founder & Creative Director",
     img: Profile1,
     review:
-      "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
+      "Working with this designer transformed our brand identity. Their attention to detail and creative vision brought our ideas to life.",
   },
   {
-    name: "jhon Duew2",
-    designation: "CEO2",
+    name: "Michael Smith",
+    designation: "CTO",
     img: Profile2,
     review:
-      "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
+      "An exceptional experience! The team delivered a user-friendly app that exceeded our expectations and delighted our users.",
   },
   {
-    name: "jhon Duew3",
-    designation: "CEO3",
-    img: Profile1,
+    name: "Emma Brown",
+    designation: "Marketing Manager",
+    img: Profile3,
     review:
-      "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
+      "Their design process is truly collaborative. We felt involved at every step, and the final product perfectly aligned with our goals.",
   },
   {
-    name: "jhon Duew4",
-    designation: "CEO4",
-    img: Profile2,
+    name: "David Wilson",
+    designation: "Product Owner",
+    img: Profile4,
     review:
-      "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
-  },
-  {
-    name: "jhon Duew5",
-    designation: "CEO5",
-    img: Profile2,
-    review:
-      "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
-  },
-  {
-    name: "jhon Duew6",
-    designation: "CEO6",
-    img: Profile2,
-    review:
-      "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
+      "Highly recommend! The designs are not only visually stunning but also functional, enhancing our users' overall experience.",
   },
 ];

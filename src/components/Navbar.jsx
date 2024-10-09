@@ -5,7 +5,7 @@ const Navbar = ({ onClose }) => {
 
 
     return (
-        <nav className='flex max-lg:flex-col gap-[12px] items-center'>
+        <nav className='flex max-lg:flex-col xl:gap-[12px] items-center'>
             {
                 navLinks.map(link => <Button
                     onClose={onClose}

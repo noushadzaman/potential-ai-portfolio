@@ -8,7 +8,7 @@ const Testimonials = () => {
         <section id="testimonials" className="flex flex-col items-center">
             <Intro
                 title={"Testimonials"}
-                subtitle={"Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium"}
+                subtitle={"Clients praise my work for its creativity and user focus, highlighting the positive impact on their brand and user engagement."}
                 center={true}
             />
             <EmblaCarousel slides={testimonials} options={{ loop: true }} />

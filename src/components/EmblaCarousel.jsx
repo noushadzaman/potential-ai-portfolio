@@ -72,7 +72,7 @@ const EmblaCarousel = (props) => {
             <div className="embla__viewport" ref={emblaRef}>
                 <div className="embla__container">
                     {testimonials.map((t, index) => (
-                        <div className="embla__slide cursor-pointer" key={index}>
+                        <div className="embla__slide cursor-pointer max-w-[1087px]" key={index}>
                             <div className="bg-s7 px-[10px] lg:px-[48px] py-[30px] lg:py-[55px] flex max-lg:flex-col gap-[29px] justify-center items-center">
                                 <div className="rounded-full overflow-hidden shrink-0 w-[135px] lg:w-[235px] h-[135px] lg:h-[235px]">
                                     <img className="w-full h-full object-center object-cover" src={t.img} alt="" />

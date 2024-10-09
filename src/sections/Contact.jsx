@@ -8,7 +8,7 @@ const Contact = () => {
     <section id="contact">
       <Intro
         title={"Lets Design Together"}
-        subtitle={"Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium"}
+        subtitle={"Join me in crafting innovative designs that elevate your brand. Together, we’ll create user-centered solutions that inspire."}
         center={true}
       />
 
