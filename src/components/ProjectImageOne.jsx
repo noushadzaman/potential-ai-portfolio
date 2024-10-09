@@ -8,7 +8,7 @@ const ProjectImageOne = ({ project }) => {
     return (
         <>
             <motion.div
-                className='cursor-progress'
+                className='cursor-progress max-lg:hidden'
                 whileHover={{
                     y: moveUp,// Move up
                     transition: { duration: movingDuration } // Duration of the animation

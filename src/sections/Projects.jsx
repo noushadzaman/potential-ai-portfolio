@@ -1,5 +1,6 @@
 import Button from "@/components/Button"
 import Intro from "@/components/Intro"
+import ProjectImageMobile from "@/components/ProjectImageMobile"
 import ProjectImageOne from "@/components/ProjectImageOne"
 import ProjectImageTwo from "@/components/ProjectImageTwo"
 import { projectCategories, projects } from "@/constants"
@@ -53,7 +54,10 @@ const Projects = () => {
           >
             <div className="bg-p2 rounded-[12px] h-[489px] relative pr-[28px] pl-[39px] overflow-hidden">
               <div className="absolute z-10 top-[84px] drop-shadow-[0_2px_6px_rgba(0,0,0,0.16)]">
+                {/* for web view */}
                 <ProjectImageOne project={project} />
+                {/* for mobile view */}
+                <ProjectImageMobile project={project} />
               </div>
               <div className="absolute right-[28px] bottom-0">
                 <ProjectImageTwo project={project} />
