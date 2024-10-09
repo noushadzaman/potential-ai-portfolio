@@ -1,11 +1,14 @@
 import { navLinks } from '../constants'
 import Button from './Button'
 
-const Navbar = () => {
+const Navbar = ({ onClose }) => {
+
+
     return (
-        <nav className='flex gap-[12px] items-center'>
+        <nav className='flex max-lg:flex-col gap-[12px] items-center'>
             {
                 navLinks.map(link => <Button
+                    onClose={onClose}
                     key={link.label}
                     href={link.href}
                     label={link.label}

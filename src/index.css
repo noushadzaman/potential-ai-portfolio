@@ -13,7 +13,6 @@
 }
 
 .embla {
-  margin-top: 100px;
   max-width: 100%;
   --slide-height: 344px;
   --slide-spacing: 62px;
@@ -34,7 +33,6 @@
 }
 
 .embla__dots {
-  margin-top: 87px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -262,4 +260,10 @@
 
   }
 
+}
+
+@media (max-width: 600px) {
+  .embla {
+    --slide-spacing: 20px;
+  }
 }

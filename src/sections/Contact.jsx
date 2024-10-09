@@ -12,7 +12,7 @@ const Contact = () => {
         center={true}
       />
 
-      <div className="flex gap-[25px] max-w-[874px] mx-auto mt-[90px]">
+      <div className="flex max-lg:items-center gap-[15px] lg:gap-[25px] max-w-[874px] mx-auto mt-[50px] lg:mt-[90px]">
         <Input placeholder="Enter Your Email" />
         <Button label={"Contact Me"} />
       </div>

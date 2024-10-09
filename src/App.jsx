@@ -11,25 +11,25 @@ export default function App() {
   return (
     <main className="overflow-hidden">
       <Header />
-      <section className="mt-[120px]">
+      <section className="max-lg:px-[16px] mt-[60px] lg:mt-[120px]">
         <Banner />
       </section>
-      <section className="mt-[70px]">
+      <section className="max-lg:px-[16px] mt-[45px] lg:mt-[70px]">
         <About />
       </section>
-      <section className="mt-[139px]">
+      <section className="max-lg:px-[16px] mt-[85px] lg:mt-[139px]">
         <Services />
       </section>
-      <section className="mt-[139px]">
+      <section className="max-lg:px-[16px] mt-[85px] lg:mt-[139px]">
         <Projects />
       </section>
-      <section className="mt-[139px]">
+      <section className="max-lg:px-[16px] mt-[85px] lg:mt-[139px]">
         <Testimonials />
       </section>
-      <section className="mt-[139px]">
+      <section className="max-lg:px-[16px] mt-[85px] lg:mt-[139px]">
         <Contact />
       </section>
-      <section className="mt-[139px] bg-s7">
+      <section className="mt-[85px] lg:mt-[139px] bg-s7">
         <Footer />
       </section>
     </main>

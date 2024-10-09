@@ -12,11 +12,11 @@ const Services = () => {
         subtitle={"Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium"}
         center={true}
       />
-      <div className="mt-[72px] flex gap-[31px] tracking-[0.03em]">
+      <div className="mt-[35px] lg:mt-[72px] flex flex-wrap gap-[31px] tracking-[0.03em] justify-center">
         {
           services.map(service => <div
             key={service.title}
-            className="px-[18px] py-[57px] bg-s7 rounded-[14px]"
+            className="px-[18px] py-[57px] bg-s7 rounded-[14px] max-w-[330px]"
           >
             <img className="h-[70px]" src={service.logo} alt={service.title} />
             <h3 className="mt-[17px] font-[600] text-[32px] leading-[48px]">{service.title}</h3>

@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="w-[1423px] mx-auto"
+      className="max-w-[1423px] mx-auto"
     >
       <Intro
         title={"My Projects"}
@@ -17,7 +17,7 @@ const Projects = () => {
         center={true}
       />
       {/* project category buttons */}
-      <div className="mt-[59px] flex gap-[17px] items-center justify-center">
+      <div className="mt-[30px] lg:mt-[59px] flex flex-wrap gap-[17px] items-center justify-center">
         {
           projectCategories.map(category => <Button
             active={false}
@@ -29,18 +29,17 @@ const Projects = () => {
       </div>
 
       {/* projects div */}
-      <div className="mt-[106px] flex gap-[44px] tracking-[0.03em] justify-center items-center">
+      <div className="mt-[45px] lg:mt-[106px] flex flex-wrap gap-[44px] tracking-[0.03em] justify-center items-center">
         {
           projects.map(project => <div
-            className=""
+            className="w-[360px] md:w-[445px]"
             key={project.name}
           >
-            <div className="bg-p2 rounded-[12px] w-[445px] h-[489px] pr-[28px] pl-[39px] relative overflow-hidden">
+            <div className="bg-p2 rounded-[12px] h-[489px] relative pr-[28px] pl-[39px] overflow-hidden">
               <div className="absolute z-10 top-[84px] drop-shadow-[0_2px_6px_rgba(0,0,0,0.16)]">
                 <ProjectImageOne project={project} />
               </div>
               <div className="absolute right-[28px] bottom-0">
-                {/* <img width={274} src={project.img} alt="" /> */}
                 <ProjectImageTwo project={project} />
               </div>
             </div>

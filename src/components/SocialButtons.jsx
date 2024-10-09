@@ -8,7 +8,7 @@ const SocialButtons = () => {
                     <a
                         key={link.url}
                         href={link.url} target='_blank'>
-                        <img src={link.logo} alt="Facebook" />
+                        <img className="w-[25px] lg:w-[32px]" src={link.logo} alt="Facebook" />
                     </a>
                 ))
             }
