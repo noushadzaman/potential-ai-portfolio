@@ -1,5 +1,5 @@
 import Intro from '@/components/Intro'
-import AboutImg from '../assets/about-image.png'
+import AboutImg from '../assets/about-image.webp'
 import Skill from '../components/Skill'
 
 const About = () => {
@@ -12,7 +12,7 @@ const About = () => {
             {/* img div (left side) */}
             <div className='relative max-w-[681px]'>
                 <img src={AboutImg} alt="Umair image" />
-                <div className='w-[290px] lg:w-[374px] h-[65px] lg:h-[83px] bg-[#FD6F00] opacity-[60%] absolute top-[58px] right-[55px]' />
+                <div className='w-[290px] lg:w-[374px] h-[65px] lg:h-[83px] bg-[#FD6F00] opacity-[60%] absolute top-[58px] lg:top-[111px] right-[55px] lg:right-[153px]' />
             </div>
 
             {/* skills div (right side) */}

@@ -1,5 +1,5 @@
 import SocialButtons from '@/components/SocialButtons'
-import BannerImg from '../assets/banner-image.png'
+import BannerImg from '../assets/banner-image.webp'
 import Button from '../components/Button'
 
 const Banner = () => {
