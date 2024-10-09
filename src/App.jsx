@@ -9,7 +9,7 @@ import Testimonials from "./sections/Testimonials";
 
 export default function App() {
   return (
-    <main>
+    <main className="overflow-hidden">
       <Header />
       <section className="mt-[120px]">
         <Banner />
@@ -23,7 +23,9 @@ export default function App() {
       <section className="mt-[139px]">
         <Projects />
       </section>
-      <Testimonials />
+      <section className="mt-[139px]">
+        <Testimonials />
+      </section>
       <section className="mt-[139px]">
         <Contact />
       </section>

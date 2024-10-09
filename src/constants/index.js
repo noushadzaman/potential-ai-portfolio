@@ -9,6 +9,8 @@ import FacebookIcon from "../assets/icons/Facebook.png";
 import TwitterIcon from "../assets/icons/Twitter.png";
 import InstagramIcon from "../assets/icons/Instagram.png";
 import LinkedInIcon from "../assets/icons/LinkedIn.png";
+import Profile1 from "../assets/profile1.jpeg";
+import Profile2 from "../assets/profile2.jpeg";
 
 export const navLinks = [
   {
@@ -122,5 +124,50 @@ export const projects = [
     img: Project3,
     imgHeight: 4096,
     imgWidth: 831,
+  },
+];
+
+export const testimonials = [
+  {
+    name: "jhon Duew1",
+    designation: "CEO1",
+    img: Profile1,
+    review:
+      "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
+  },
+  {
+    name: "jhon Duew2",
+    designation: "CEO2",
+    img: Profile2,
+    review:
+      "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
+  },
+  {
+    name: "jhon Duew3",
+    designation: "CEO3",
+    img: Profile1,
+    review:
+      "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
+  },
+  {
+    name: "jhon Duew4",
+    designation: "CEO4",
+    img: Profile2,
+    review:
+      "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
+  },
+  {
+    name: "jhon Duew5",
+    designation: "CEO5",
+    img: Profile2,
+    review:
+      "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
+  },
+  {
+    name: "jhon Duew6",
+    designation: "CEO6",
+    img: Profile2,
+    review:
+      "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
   },
 ];

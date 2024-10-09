@@ -14,6 +14,7 @@ export default {
         s5: "#AFAFAF",
         s6: "#EDECEC ",
         s7: "#F8F8F8 ",
+        s8: "#D9D9D9 ",
         black: {
           DEFAULT: "#000000",
         },
